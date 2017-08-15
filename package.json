@@ -1,7 +1,10 @@
 {
 	"name": "shorten-my-url",
+  "version": "0.1.0",
+  "description": "A microservice which takes a URL, passed as a parameter to the API, and then responds with a shortened URL in JSON.",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+    "mongodb": "~3.4.7"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -13,5 +16,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/domfarnham/shorten-my-url"
-	}
+	},
+  "author": "Dom Farnham"
 }
