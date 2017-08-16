@@ -5,9 +5,10 @@ const express = require('express');
 const app = express();
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
-
+// Set database URL
+const dbURL = "";
 // Connect to database first
-MongoClient.connect('mongodb://dom:e8j9a%40KGWMNy@ds161042.mlab.com:61042/myfcbechallenges', function(err, db) {
+MongoClient.connect(dbURL, function(err, db) {
   assert.equal(null, err);
   console.log("Successfully connected to MongoDB.");
   
