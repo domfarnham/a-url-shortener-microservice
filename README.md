@@ -4,4 +4,4 @@ A microservice which takes a URL, passed as a parameter to the API, and then res
 
 Test it at <a href="https://shorten-my-url.glitch.me/">https://shorten-my-url.glitch.me/</a>
 
-<img src="https://cdn.rawgit.com/standard/standard/master/badge.svg?1503150814326" alt="JSStandard Badge" height="56" width="171">
+<img src="https://cdn.jsdelivr.net/gh/standard/standard/badge.svg?1503150814326" alt="JSStandard Badge" height="56" width="171">
